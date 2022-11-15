@@ -1,0 +1,91 @@
+.contact-page {
+  background-color: #fcfefc;
+  display: flex;
+  margin: 15px;
+  padding: 8px;
+  /* width: 100%; */
+  height: auto;
+  margin-top: 40px;
+}
+
+.c-details,
+.c-details p,
+.c-details p strong,
+.c-details ul,
+.c-details ul li,
+.c-details a {
+  background-color: #f2f6fc;
+  border-radius: 13px;
+}
+
+.c-details {
+  /* margin: 10px; */
+  padding: 10px;
+  padding-left: 25px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+.c-details p {
+  font-weight: 700;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.c-details p strong {
+  font-weight: bold;
+}
+
+.mycontact,
+.enquiry {
+  /* margin: 8px; */
+  padding: 8px;
+}
+
+.textarea-tag,
+.input-tag,
+.send-btn {
+  margin: 5px;
+  padding: 10px;
+  outline: none;
+  background-color: #f2f6fc;
+  /* border: none; */
+  border: 1px solid #f2f6fc;
+  border-radius: 5px;
+  margin-left: 80px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+.input-tag {
+  height: 20px;
+  width: 450px;
+}
+
+.send-btn {
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2.5px;
+  border-radius: 8px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.send-btn:hover {
+  background-color: #bec1c4;
+}
+
+.textarea-tag {
+  height: 60px;
+  width: 450px;
+  resize: none;
+}
+
+.mycontact {
+  width: 50%;
+  font-size: 18px;
+}
+
+.fb-img :hover {
+  width: 50px;
+  height: 50px;
+}

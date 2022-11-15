@@ -1,0 +1,21 @@
+.project-page {
+  /* display: flex; */
+  margin: 35px;
+  padding: 30px;
+  /* width: 100%; */
+  height: auto;
+  margin-top: 40px;
+  border: 2px solid #f2f6fc;
+  border-radius: 25px;
+}
+
+.project-page,
+.p-title,
+.p-title h1,
+.items {
+  background-color: #f2f6fc;
+}
+
+.p-title {
+  margin-left: 10px;
+}
