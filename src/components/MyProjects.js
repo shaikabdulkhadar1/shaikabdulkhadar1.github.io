@@ -33,6 +33,6 @@ export const MyProjects = [
     brief: "Completely built using ReactJS",
     discription:
       "This project is the webpage you are viewing right now. I build this portfolio using ReactJS.",
-    projectUrl: "https://github.com/shaikabdulkhadar1/myPortfolio",
+    projectUrl: "https://github.com/shaikabdulkhadar1/portfolio",
   },
 ];
