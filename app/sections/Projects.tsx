@@ -76,6 +76,25 @@ function Projects() {
         externalLink: "",
       },
     },
+    {
+      image: "/cms.png",
+      projectName: "Content Management System",
+      projectLink: "https://github.com/shaikabdulkhadar1/mernstack-crm-system",
+      projectDescription:
+        "I built a personal Contact Management System (CMS) from scratch. This system centralizes all my contacts with details like names, emails, and phone numbers, eliminating the hassle of scattered information. It allows the users to create, update, read and delete the contacts.",
+      projectTech: [
+        "React",
+        "Node.js",
+        "Firebase",
+        "MongoDB",
+        "Express",
+        "Redux Toolkit",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/shaikabdulkhadar1/mernstack-crm-system",
+        externalLink: "",
+      },
+    },
   ];
   return (
     <div className="projects" id="projects">

@@ -28,7 +28,7 @@ function Experience() {
     {
       sTitle: "ISA",
       Cname: "Indian Students' Association @ CUA",
-      role: "Public Relations Director",
+      role: "Treasurer, Ex-Public Relations Director",
       start: "Sep 2023",
       end: "Present",
       url: "https://www.linkedin.com/in/indian-student-association-0708a1292/",
