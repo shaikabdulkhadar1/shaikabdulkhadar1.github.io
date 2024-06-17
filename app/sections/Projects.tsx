@@ -78,7 +78,7 @@ function Projects() {
     },
     {
       image: "/cms.png",
-      projectName: "Content Management System",
+      projectName: "CMS",
       projectLink: "https://github.com/shaikabdulkhadar1/mernstack-crm-system",
       projectDescription:
         "I built a personal Contact Management System (CMS) from scratch. This system centralizes all my contacts with details like names, emails, and phone numbers, eliminating the hassle of scattered information. It allows the users to create, update, read and delete the contacts.",
