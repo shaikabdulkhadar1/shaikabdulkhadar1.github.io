@@ -1,18 +1,20 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+    extend: {},
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
+      inter: ["Inter", "sans-serif"],
+      outfit: ["Outfit", "sans-serif"],
+    },
+    colors: {
+      bg1: "#FFFFFF",
+      bg2: "#BFC0C0",
+      fontColor: "#2D3142",
+      navBar: "#4F5D75",
+      btnColor: "#EF8354",
     },
   },
-  plugins: [],
-}
+  plugins: [require("tailwindcss-motion")],
+};
