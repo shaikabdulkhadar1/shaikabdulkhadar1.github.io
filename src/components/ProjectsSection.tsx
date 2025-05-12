@@ -2,6 +2,14 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Github, ExternalLink } from "lucide-react";
 import SectionTitle from "./SectionTitle";
+import AiImage from "../images/ai-chatbot.webp";
+import WeatherImage from "../images/weather-app.png";
+import CmsImage from "../images/cms.webp";
+import NetflixImage from "../images/netflix-clone.jpg";
+import DeepfakeImage from "../images/deep-fake-using-python.webp";
+import MlCloudImage from "../images/cloud-service-provider.jpeg";
+import EncrytedImage from "../images/encrypted-fs.png";
+import JarvisImage from "../images/jarvis.jpg";
 
 const ProjectsSection: React.FC = () => {
   const [expandedProjects, setExpandedProjects] = useState<number[]>([]);
@@ -26,7 +34,7 @@ const ProjectsSection: React.FC = () => {
         "Sockets",
         "Google Gemini",
       ],
-      image: "src/images/ai-chatbot.webp",
+      image: AiImage,
       github: "https://github.com/shaikabdulkhadar1/ai-assistant",
     },
     {
@@ -34,7 +42,7 @@ const ProjectsSection: React.FC = () => {
       description:
         "I built a responsive Weather App using the MERN stack, TailwindCSS, and a third-party Weather API. The app allows users to search for any city and get real-time weather updates including temperature, humidity, wind speed, and forecast. The sleek UI built with TailwindCSS ensures a smooth user experience across devices, while React handles dynamic updates efficiently. Node.js and Express serve as the backend, fetching weather data through API calls, and MongoDB logs recent searches for a personalized experience.",
       technologies: ["React", "Express", "API", "TailwindCSS"],
-      image: "src/images/weather-app.png",
+      image: WeatherImage,
       github: "https://github.com/shaikabdulkhadar1/weather-app",
     },
     {
@@ -42,7 +50,7 @@ const ProjectsSection: React.FC = () => {
       description:
         "I developed a full-stack Contact Management System (CRM) using the MERN stack (MongoDB, Express.js, React, Node.js). Implemented core CRUD (Create, Read, Update, Delete) functionalities for effective contact management. I also integrated robust authorization system utilizing Authentication Tokens to safeguard user data.",
       technologies: ["React", "Express", "Node", "MongoDB", "Tailwind CSS"],
-      image: "src/images/cms.webp",
+      image: CmsImage,
       github: "https://github.com/shaikabdulkhadar1/mernstack-crm-system",
     },
     {
@@ -58,7 +66,7 @@ const ProjectsSection: React.FC = () => {
         "Express",
         "MongoDB",
       ],
-      image: "src/images/netflix-clone.jpg",
+      image: NetflixImage,
       github: "https://github.com/shaikabdulkhadar1/Netflix-Clone",
     },
     {
@@ -66,7 +74,7 @@ const ProjectsSection: React.FC = () => {
       description:
         "I led the development team as the Lead Developer, steering a project pivotal to HacktoberFest 2022 organized by CodeForIndia Foundation. I contributed to over 70% of the project's codebase, shaping its core logic and functionalities.",
       technologies: ["Python", "TensorFlow", "Keras", "OpenCV"],
-      image: "src/images/deep-fake-using-python.webp",
+      image: DeepfakeImage,
       github:
         "https://github.com/shaikabdulkhadar1/Deepfake-Detection-with-Python",
     },
@@ -75,7 +83,7 @@ const ProjectsSection: React.FC = () => {
       description:
         "The project was an ML-based Smart Cloud Storage Service that reduces the user’s bill by analyzing and removing unused and unnecessary features. I implemented the KNN Machine Learning algorithm, achieving a notable 55% reduction in time complexity and a 68% improvement in efficiency. I contributed significantly to the project's success, leading to a significant 30% reduction in cloud storage expenses for users.",
       technologies: ["Python", "TensorFlow", "Keras", "OpenCV"],
-      image: "src/images/cloud-service-provider.jpeg",
+      image: MlCloudImage,
       github: "https://github.com/shaikabdulkhadar1/cloudServiceProvider",
     },
     {
@@ -83,7 +91,7 @@ const ProjectsSection: React.FC = () => {
       description:
         "I developed a secure file storage system utilizing hybrid cryptography, combining the strengths of Blowfish, DES, and RSA encryption algorithms. I implemented a robust encryption mechanism employing three distinct private keys, safeguarding sensitive data against unauthorized access. I also optimized the decryption process, leading to a 32% improvement in decryption speed.",
       technologies: ["Python", "RSA", "Blowfish", "DES"],
-      image: "src/images/encrypted-fs.png",
+      image: EncrytedImage,
       github: "https://github.com/shaikabdulkhadar1/File-Storage",
     },
     {
@@ -91,7 +99,7 @@ const ProjectsSection: React.FC = () => {
       description:
         "Led the development of an AI-based virtual voice assistant using Python. The project aimed at developing a virtual voice assistant which operates on your voice commands. Implemented robust code that met stringent performance and scalability requirements. Prioritized efficiency and quick execution in the development process, resulting in a 35% reduction in code complexity and a 10% increase in developer productivity. Demonstrated great leadership and technical expertise in the role of Lead Developer and Programmer.",
       technologies: ["Python", "TensorFlow", "Keras", "NLTK"],
-      image: "src/images/jarvis.jpg",
+      image: JarvisImage,
       github: "https://github.com/shaikabdulkhadar1/JARVIS",
     },
   ];

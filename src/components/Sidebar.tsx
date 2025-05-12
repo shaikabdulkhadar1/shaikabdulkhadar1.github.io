@@ -11,6 +11,7 @@ import {
   Github,
 } from "lucide-react";
 import { motion } from "framer-motion";
+import profile from "../images/profile.png";
 
 interface SidebarProps {
   onClose?: () => void;
@@ -30,7 +31,7 @@ const Sidebar: React.FC<SidebarProps> = ({ onClose }) => {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-40 h-40 rounded-full overflow-hidden bg-amber-100">
                   <img
-                    src="src/images/profile.png"
+                    src={profile}
                     alt="Abdul Khadar Shaik"
                     className="w-full h-full object-cover"
                   />
