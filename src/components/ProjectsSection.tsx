@@ -9,7 +9,10 @@ import NetflixImage from "../images/netflix-clone.jpg";
 import DeepfakeImage from "../images/deep-fake-using-python.webp";
 import MlCloudImage from "../images/cloud-service-provider.jpeg";
 import EncrytedImage from "../images/encrypted-fs.png";
+import BugsQAImage from "../images/bugs-qa.png";
+import DevToolsHubImage from "../images/dev-tools-hub.png";
 import JarvisImage from "../images/jarvis.jpg";
+import { desc } from "framer-motion/client";
 
 const ProjectsSection: React.FC = () => {
   const [expandedProjects, setExpandedProjects] = useState<number[]>([]);
@@ -21,6 +24,36 @@ const ProjectsSection: React.FC = () => {
   };
 
   const projects = [
+    {
+      title: "Dev Tools Hub",
+      description:
+        'I developed a web application, Dev Tools Hub, offering a suite of essential developer utilities. Designed the user interface using Lovable, focusing on an intuitive and engaging user experience. Employed a "vibe coding" approach utilising GenAI models, including Claude and GPT, fostering a highly creative and iterative development process. Utilised JavaScript, React, and Node.js to build a robust and scalable platform.',
+      technologies: [
+        "MERN Stack",
+        "TypeScript",
+        "Generative AI",
+        "Claude",
+        "Google Gemini",
+      ],
+      image: DevToolsHubImage,
+      github: "https://github.com/shaikabdulkhadar1/tools_dev",
+      live: "https://tools-dev-five.vercel.app/",
+    },
+    {
+      title: "AI based QA Bugs assistant",
+      description:
+        'I developed a web application,Bugs QA, offering a streamlined approach to quality assurance and bug tracking. The user interface was built with Lovable, focusing on intuitive design for an enhanced user experience. The application\'s logic was robustly engineered using Node.js and Express.js. The development process embraced "vibe coding", creatively leveraging Google Gemini, Claude, and GPT for inspiration and implementation.',
+      technologies: [
+        "MERN Stack",
+        "TypeScript",
+        "Generative AI",
+        "Claude",
+        "Google Gemini",
+      ],
+      image: BugsQAImage,
+      github: "https://github.com/shaikabdulkhadar1/bugs_qa",
+      live: "https://bugs-qa.vercel.app/",
+    },
     {
       title: "AI Code Assistant",
       description:
@@ -191,6 +224,17 @@ const ProjectsSection: React.FC = () => {
                   <Github size={20} />
                   <span>Code</span>
                 </motion.a>
+                {project.live && (
+                  <motion.a
+                    href={project.live}
+                    className="flex items-center gap-2 text-gray-300 hover:text-amber-400"
+                    whileHover={{ scale: 1.1, x: 5 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    <ExternalLink size={20} />
+                    <span>Live Demo</span>
+                  </motion.a>
+                )}
               </div>
             </div>
           </motion.div>
