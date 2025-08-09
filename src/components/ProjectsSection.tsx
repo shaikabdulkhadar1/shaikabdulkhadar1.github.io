@@ -12,7 +12,6 @@ import EncrytedImage from "../images/encrypted-fs.png";
 import BugsQAImage from "../images/bugs-qa.png";
 import DevToolsHubImage from "../images/dev-tools-hub.png";
 import JarvisImage from "../images/jarvis.jpg";
-import { desc } from "framer-motion/client";
 
 const ProjectsSection: React.FC = () => {
   const [expandedProjects, setExpandedProjects] = useState<number[]>([]);
